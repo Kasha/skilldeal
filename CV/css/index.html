@@ -1,0 +1,422 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Curriculum | CV</title>
+<!--960 Grid System ==============================================================-->
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/960.css" />
+<!--Fogli di Stile ==============================================================-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<!--JQUERY ==============================================================-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<!--CONTACT FORM ==============================================================-->
+<script type="text/javascript" src="js/jquery_mail.js"></script>
+<!--SCROLL BOTTOM ==============================================================-->
+<script type="text/javascript" src="js/scroll.js"></script>
+<!--SCROLL FOLLOW ==============================================================-->
+<script type="text/javascript" src="js/ui.core.js"></script>
+<script type="text/javascript" src="js/scroll-follow.js"></script>
+<script type="text/javascript">
+        $( document ).ready( function ()
+            {
+                $( '#social' ).scrollFollow();
+            }
+        );
+    </script>
+
+<!--CUFON ==============================================================-->
+
+<script type="text/javascript" charset="utf-8" src="js/cufon_yui.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/Delicious_500-Delicious_700-Delicious_italic_500-Delicious_italic_700.font.js"></script>
+  <script type="text/javascript">
+  
+  function getObjFromDoc(doc, name) {
+    try {
+      if (!name || !doc)
+        return null;
+
+      if (doc.getElementById) {
+        return doc.getElementById(name);
+      }
+      else if (doc.childNodes) {
+        var oItem = HELP_getDoc(doc.childNodes, name);
+        if (this.isEmpty(oItem) == false) {
+          return oItem;
+        }
+      }
+
+      if (doc.all) {
+        var oItem = doc.all[name];
+        if (this.isEmpty(oItem) == false) {
+          return oItem;
+        }
+      }
+
+      if (doc.getElementsByName) {
+        var oTags = doc.getElementsByName(name);
+        if (g_oDomUtil.isEmpty(oTags) == false) {
+          var oTag = oTags[0];
+          if (g_oDomUtil.isEmpty(oTag) == false) {
+            return oTag;
+          }
+        }
+      }
+
+      if (doc.tagName == "TR") {
+        return HELP_getDoc(doc.cells, name);
+      }
+
+
+
+      return null;
+    }
+    catch (e) {
+      return null;
+    }
+  }
+
+  $(document).ready(function() {
+    Cufon.replace('h1', { textShadow: '0px -2px #1B1B1B' });
+    Cufon.replace('h2', { textShadow: '0px 2px #fff' });
+    Cufon.replace('h3', { textShadow: '0px 1px #B5B5B5' });
+    Cufon.replace('h4, h5', { textShadow: '0px 1px #fff' });
+    Cufon.replace('span', { textShadow: '0px -1px #000' });
+    Cufon.replace('h6', { textShadow: '0px -2px #282828' });
+    Cufon.replace('p.p_big', { textShadow: '0px 1px #fff' });
+    Cufon.now();
+    var sHref = "mai";
+    var oMailTo = getObjFromDoc(document, "idMailTo");
+    sHref += "lto:liad@skill-deal.com?subject=LiadCV";
+    oMailTo.href = sHref;
+  });
+  </script>
+
+</head>
+<body>
+<div class="container_12" >
+<div id="content" class="grid_12">
+
+<!--===HEADER==============================================================================-->
+<div id="header" class="grid_10 push_1 alpha omega">
+    <ul>
+    <li id="bigtitle"><h1>Liad Kashanovsky</h1></li>
+    <li id="subtitle"><h3>Software Architecture & Development & Consulting</h3></li>
+    </ul>
+
+</div><div class="clear"></div>
+<!--=======================================================================================-->  
+
+
+ 
+
+<!--===TITLE==============================================================================-->   
+<div id="title" class="grid_10 push_1 alpha omega section">
+
+    <div class="grid_10 alpha omega section_title">
+        <h2>Personal Details</h2>       
+    </div><div class="clear"></div>
+    
+    <div id="title_sx" class="grid_4 alpha">
+        <div id="photo"><img src="photo/LiadIcon.jpg" alt="myphoto"/></div>
+    </div>
+    
+    <div id="title_center" class="grid_2 alpha">
+    <ul>
+    <li><h4>Birth</h4></li>
+    <li><h4>Address</h4></li>
+    <li><h4>Phone</h4></li>
+    <li><h4>Mail</h4></li>
+    <li><h4>vCard</h4></li>
+    </ul>
+    </div>
+    
+    <div id="title_dx" class="grid_4">
+    <ul>
+    <li><p class="p_big">29 August 1974</p></li>
+    <li><p class="p_big">Loah-Ahari 12 St., Oranit, Israel</p></li>
+    <li><p class="p_big">Mobile. +972-54-7202248</p></li>
+    <li><p class="p_big">liad@skill-deal.com</p></li>					
+    <li><a href="../vCard/index.html" target="_blank"><img src="img/social/vCardIcon.jpg" alt="Open my virtual card"/></a></li>		
+    
+    </ul> 
+    </div><div class="clear"></div>
+    
+    <div class="grid_10 alpha omega section_title">
+    <div id="social_button"><h6 class="nav_down" id="nav_down"><a href="#" style="color: #fff;">Contact me</a></h6></div>
+    </div><div class="clear"></div>
+
+</div><div class="clear"></div>
+<!--=======================================================================================-->
+
+  
+
+<!--===WORK==============================================================================-->    
+<div class="grid_10 push_1 alpha omega section">
+
+    <div class="grid_10 alpha omega section_title">
+        <h2>Work Experience</h2>
+    </div><div class="clear"></div>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Summary</h4></li>
+    
+    <li class="section_content"><p>More than 11 years of programming and application development experience in a leading Israeli companies in the fields of optimization of corporate activities (Callflow), conference over IP (Interwise AT&T) and Web Tech start-ups (Mainly in the area of Stock, tickets trading and sport fantasy game), as a software engineer, development team leader, VP R&D and CTO. Expertise with distributed systems - client/server, windows platform technologies, web applications and web services.</p></li>
+    
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>COMPUTER SKILLS</h4></li>
+    <li class="section_content">
+    <p><strong style="font-weight:bold;">Proficient in:</strong> Web applications and web services (COM/DCOM, C\C++, Javascript, HTTP, AJAX, JSON,  ASP, PHP, XML, XSL, Design Patterns), Object Oriented Programming</p>
+    <p><strong style="font-weight:bold;">Experience with:</strong> Web applications and web services (C#, ASP.NET, NPAPI Plugin (Ansii C++), XUL Add-on, J2EE, Java bean, Java servlet, JSP), SQL, multi -threaded environment,<br /> Trading/Social Framework API (JQuery, Facebook, Paypal, eBay, Linked-in, Freelancer.com, TicketsNetwork.com, TicketNow.com)</p>
+    <p><strong style="font-weight:bold;">Database:</strong> Microsoft SQL Server and Microsoft Access, MySQL</p>
+    <p><strong style="font-weight:bold;">Platform:</strong> Microsoft Windows (XP, Win 7, Winn 2003 and 2008 Server), Linux Red Hat, Linux Ubuntu</p>
+    <p><strong style="font-weight:bold;">Browser:</strong> IE 6,7,8, Mozilla Firefox > 1.5 and Thunderbird > 3,  Safari,  Chrome, Opera</p>
+    <p><strong style="font-weight:bold;">Web Server:</strong> IIS, Apache 2.2.6, Tomcat 6.0</p>
+    <p><strong style="font-weight:bold;">Development environment:</strong> icrosoft Visual Studio, Eclipse0</p>
+    </li>
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Development Team Manager and Technology leader</h4></li>
+    <li><h5>TIQIQ Startup, Full-Time</h5></li>
+    <li><h4><strong style="font-size:18px;">Next generation secondary market event ticket shopping platform</strong></h4></li>
+    
+    <li class="section_content">
+    <p><strong style="font-weight:bold;">Primary responsibilities included:</strong> Client side managing, designing and developing. Remote management of a team located in the USA. Working processes management and implementation. Implementing E-Bay, TicketsNetwork, TicketNow, Trading API.</p>
+    <p><strong style="font-weight:bold;">Working environment:</strong></p>
+    <p><strong style="font-weight:bold;">Server Side:</strong> Win Server + IIS + MySQL, C#, ASPX, .NET 3.5</p>
+    <p><strong style="font-weight:bold;">Client Side:</strong> HTML,  Javascript, AJAX, .NET, Action Script2</p>
+    <div class="date"><span>2009-2010</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>CTO and VP R&D manager</h4></li>
+    <li><h5>B.P. InTech Startup, Full-Time</h5></li>
+    <li><h4><strong style="font-size:18px;">playSPEX is an innovative Fantasy Sports Web game which adds a new dimension of real-time market trading to Fantasy Sports (company was closed)</strong></h4></li>
+    
+    <li class="section_content">
+    <p><strong style="font-weight:bold;">Primary responsibilities included:</strong> Working processes management and implementation.  System Architecture and  design (DB, JSON Protocol, AJAX and Open Connection Design Pattern).  Management  of the development team (6 employers). Mainly hands –on client AJAX Web Application.  Reported directly to the CEO. Managed production server – installation and maintenance of Red Hat + Apache 2.2.6 + Tomcat 6 + MySQL Production server.</p>
+    <p><strong style="font-weight:bold;">Working environment:</strong></p>
+    <p><strong style="font-weight:bold;">Server Side:</strong> J2ee, Java, servlets, JSP, hibernate , XML, DTD, PHP, MySQL, Eclipse, Ubuntu</p>
+    <p><strong style="font-weight:bold;">Client Side:</strong> Javascript objects+CSS+XHTML+XML http request, MS Visual Studio, XP</p>
+    <div class="date"><span>2007-2009</span></div></li>
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Sr. Software Engineer</h4></li>
+    <li><h5>Interwise, Full-Time</h5></li>
+    <li><h4><strong style="font-size:18px;">Enterprise video and call conference </strong></h4></li>
+    
+    <li class="section_content">
+    <p><strong style="font-weight:bold;">Primary responsibilities included (Web architecture, Web Entry Point):</strong></p>
+    <p>1. Cross browser (fuzzy logic) java script code for successful web browsing and application installing considering minimum browser permissions</p>
+    <p>2. Architecting, designing and developing cross browser Conference Thin client AJAX Web application</p>
+    <p>3. Designing and writing JSON protocol for client/server communication</p>
+    <p>4. Designing and developing Server side JSON wrapper and unique case design pattern for client/server communication</p>
+    <p>5. Developed W3C JavaScript Library</p>
+    <p>6. General maintenance and developing features of Conference Window Application written in C++, COM, MFC, VB.</p>
+        <div class="date"><span>2005-2007</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Development Team Leader</h4></li>
+    <li><h5>Astralogic Startup, Full-Time</h5></li>
+    <li><h4><strong style="font-size:18px;">Internet Web Application solutions</strong></h4></li>
+    
+    <li class="section_content">
+
+    <p>1. Leading Client/Server team of 2 developers</p>
+    <p>2. Primary responsibilities included leading, research, design and development of client/server code</p>
+    <p>3. Leading development of cross browser AJAX Web application containing Web service of IIS+ASP (Java script)+COM(C++) or IIS+PHP on server side and HTML+Java script+XML/XSL+XML HTTP request on client side</p>
+    <p>4. Main Web Application Projects: Interactive information Kiosk for stores, Content Manager, Stock management, Address finder</p>
+
+
+    <div class="date"><span>2002-2005</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Sr. Software Engineer</h4></li>
+    <li><h5>Callflow Startup, Full-Time</h5></li>
+    <li><h4><strong style="font-size:18px;">optimization of corporate activities (Mainly CRM systems)</strong></h4></li>
+    
+    <li class="section_content">
+
+    <P>1. Primary responsibilities included research, design and development of client/server code</P>
+<P>2. Development of CRM and Queued manager software and Web application for analyzing, statistics, notifications</P>
+<P>3. Technologies: COM, C++ for Borland, VB, ASP, Java script, XML, XSL, MSMQ</P>
+
+    <div class="date"><span>1999-2002</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+</div><div class="clear"></div>
+<!--=======================================================================================-->
+
+
+<!--===EDUCATION==============================================================================-->    
+<div class="grid_10 push_1 alpha omega section">
+
+    <div class="grid_10 alpha omega section_title">
+        <h2>Education</h2>
+    </div><div class="clear"></div>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Tel-Aviv University</h4></li>
+    <li><h5>Practical Software Engineer</h5></li>
+    <li class="section_content">
+    <div class="date"><span>1997-1999</span></div></li>
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Ness Collage </h4></li>
+    <li><h5>Silver Light Introduction</h5></li>
+    <li class="section_content">
+<p>24 hours</p>
+    <div class="date"><span>2007</span></div></li>
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Zooz Consultant for Initiative thinking</h4></li>
+    <li><h5>Initiative thinking by Zooz</h5></li>
+    <li class="section_content">
+<p>48 hours</p>
+    <div class="date"><span>2007</span></div></li>
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Design Patterns</h4></li>
+    <li><h5>Hitech Collage</h5></li>
+    <li class="section_content">
+<p>48 hours</p>
+    <div class="date"><span>2006</span></div></li>
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>Professional COM Programming</h4></li>
+    <li><h5>Sella Collage</h5></li>
+    <li class="section_content">
+<p>48 hours</p>
+    <div class="date"><span>2000</span></div></li>
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li><h4>C/C++</h4></li>
+    <li><h5>John Brice Collage</h5></li>
+    <li class="section_content">
+<p>96 hours</p>
+    <div class="date"><span>1996-1997</span></div></li>
+    </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+</div><div class="clear"></div>
+<!--=======================================================================================--> 
+
+<!--===CONTACT FORM==============================================================================-->    
+<div id="contact" class="grid_10 push_1 alpha omega section">
+
+    <div class="grid_10 alpha omega section_title">
+        <h2>Contact Me</h2>
+    </div><div class="clear"></div>
+    
+    <div class="grid_5 alpha contact_sx">
+    <form id="formail" method="post" action="">
+    <ul>
+        <li><h4>Name</h4><div class="border"><input type="text" id="nome" name="nome"  value="" /></div></li>
+        <li><h4>Email</h4><div class="border"><input type="text" id="email" name="email"  value="" /></div></li>
+        <li><h4>Object</h4><div class="border"><input type="text" id="oggetto" name="ogggetto"  value="" /></div></li>
+        <li><h4></h4><input type="submit" id="invia" name="invia" value="" /></li>
+    </ul>
+    </form>
+    </div>
+    <div class="grid_5 omega contact_dx">
+    <ul>
+    <li><div class="border"><textarea id="messaggio" name="messaggio" rows="4" cols="20"></textarea></div></li>
+    </ul>
+    </div>
+    <div class="clear"></div>   
+    
+    <div class="grid_10 alpha omega">
+    <div class="border"><div id="risposta"></div></div>
+    </div><div class="clear"></div>
+
+</div><div class="clear"></div>
+<!--=======================================================================================--> 
+
+
+
+<!--===FOOTER==============================================================================-->
+<div id="footer" class="grid_10 push_1 alpha omega">
+</div><div class="clear"></div>
+<!--=======================================================================================-->
+
+<div id="social">
+<ul>
+<li id="social_top"></li>
+<li><a href="http://www.facebook.com/profile.php?id=588609444" target="_blank"><img src="img/social/facebook.png" alt="facebook" /></a></li>
+<li><a href="http://themeforest.net/user/Liad" target="_blank"><img src="img/social/twitter.png" alt="themeforest"/></a></li>
+<li><a href="http://www.linkedin.com/in/kashanovsky" target="_blank"><img src="img/social/linkedin.png" alt="linkedin"/></a></li>
+<li><a id="idMailTo" href="#" target="_blank"><img src="img/social/email.png" alt="email"/></a></li>
+<!--
+<li><a href="#"><img src="img/social/flickr.png" /></a></li>
+<li><a href="#"><img src="img/social/friendfeed.png" /></a></li>
+<li><a href="#"><img src="img/social/google.png" /></a></li>
+<li><a href="#"><img src="img/social/msn.png" /></a></li>
+<li><a href="#"><img src="img/social/myspace.png" /></a></li>
+<li><a href="#"><img src="img/social/skype.png" /></a></li>
+<li><a href="#"><img src="img/social/yahoo.png" /></a></li>
+<li><a href="#"><img src="img/social/youtube.png" /></a></li>
+-->
+<li><a href="LiadCV.doc"><img src="img/social/download.png" alt="download"/></a></li>
+<li id="social_bottom"></li>
+</ul>
+</div>
+
+</div><div class="clear"></div><!-- close content-->
+</div><!-- close container-->
+
+<script type="text/javascript">
+            $(function() {
+                var $elem = $('#content');
+                
+                $('#nav_down').click(
+                    function (e) {
+                        $('html, body').animate({scrollTop: $elem.height()}, 800);
+                    }
+                );
+            });
+</script>
+</body>
+</html>

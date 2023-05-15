@@ -1,0 +1,659 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta content="IE=edge" http-equiv="X-UA-Compatible" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>My Feedbacs</title>
+<!--960 Grid System ==============================================================-->
+<link rel="stylesheet" href="css/reset.css" />
+<link rel="stylesheet" href="css/960.css" />
+<!--Fogli di Stile ==============================================================-->
+<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/print.css" type="text/css" media="print" />
+<!--JQUERY ==============================================================-->
+<script type="text/javascript" src="../vCard/assets/js/jquery-1.7.2.min.js"></script>
+	
+<!--CONTACT FORM ==============================================================-->
+<script type="text/javascript" src="js/jquery_mail.js"></script>
+<!--SCROLL BOTTOM ==============================================================-->
+<script type="text/javascript" src="js/scroll.js"></script>
+<!--SCROLL FOLLOW ==============================================================-->
+<script type="text/javascript" src="js/ui.core.js"></script>
+<script type="text/javascript" src="js/scroll-follow.js"></script>
+
+
+	<script type="text/javascript">
+		var IE7_PNG_SUFFIX = ".png";
+	</script>
+
+	<!--[if lt IE 9]>				 
+	<link type="text/css" href="../vCard/assets/css/iebehavior.css" rel="stylesheet" />
+	<script src="../vCard/assets/js/Iebehavior.js" type="text/javascript"></script>	
+	<script src="../vCard/assets/js/ie7/ie9.js" type="text/javascript"></script>
+	<script src="../vCard/assets/js/ie7/ie7-squish.js" type="text/javascript"></script>
+	<script type="text/javascript" src="../vCard/assets/js/ie7/html5.js">
+	</script>
+	<![endif]-->
+	<!-- END SCRIPTS -->
+	
+	
+<script type="text/javascript">
+        $( document ).ready( function ()
+            {
+                $( '#social' ).scrollFollow();
+            }
+        );
+    </script>
+
+<!--CUFON ==============================================================-->
+
+<script type="text/javascript" charset="utf-8" src="js/cufon_yui.js"></script>
+<script type="text/javascript" charset="utf-8" src="js/Delicious_500-Delicious_700-Delicious_italic_500-Delicious_italic_700.font.js"></script>
+  <script type="text/javascript">
+  
+  function getObjFromDoc(doc, name) {
+    try {
+      if (!name || !doc)
+        return null;
+
+      if (doc.getElementById) {
+        return doc.getElementById(name);
+      }
+      else if (doc.childNodes) {
+        var oItem = HELP_getDoc(doc.childNodes, name);
+        if (this.isEmpty(oItem) == false) {
+          return oItem;
+        }
+      }
+
+      if (doc.all) {
+        var oItem = doc.all[name];
+        if (this.isEmpty(oItem) == false) {
+          return oItem;
+        }
+      }
+
+      if (doc.getElementsByName) {
+        var oTags = doc.getElementsByName(name);
+        if (g_oDomUtil.isEmpty(oTags) == false) {
+          var oTag = oTags[0];
+          if (g_oDomUtil.isEmpty(oTag) == false) {
+            return oTag;
+          }
+        }
+      }
+
+      if (doc.tagName == "TR") {
+        return HELP_getDoc(doc.cells, name);
+      }
+
+
+
+      return null;
+    }
+    catch (e) {
+      return null;
+    }
+  }
+
+  $(document).ready(function() {
+    Cufon.replace('h1', { textShadow: '0px -2px #1B1B1B' });
+    Cufon.replace('h2', { textShadow: '0px 2px #fff' });
+    Cufon.replace('h3', { textShadow: '0px 1px #B5B5B5' });
+    Cufon.replace('h4, h5', { textShadow: '0px 1px #fff' });
+    Cufon.replace('span', { textShadow: '0px -1px #000' });
+    Cufon.replace('h6', { textShadow: '0px -2px #282828' });
+    Cufon.replace('p.p_big', { textShadow: '0px 1px #fff' });
+    Cufon.now();
+    var sHref = "mailto:liadky";
+    var oMailTo = getObjFromDoc(document, "idMailTo");
+    sHref += "@gmail.com?subject=LiadCV";
+    oMailTo.href = sHref;
+    
+    sHref = "liadky@";
+    var oDisplayMailTo = getObjFromDoc(document, "idDisplayMailTo");
+    sHref += "gmail.com";
+    oDisplayMailTo.innerHTML = sHref;
+    
+  });
+  </script>
+
+</head>
+<body>
+<div class="container_12" >
+<div id="content" class="grid_12">
+
+<!--===HEADER==============================================================================-->
+<div id="header" class="grid_10 push_1 alpha omega">
+    <ul>
+    <li id="bigtitle"><h1>Liad Kashanovsky</h1></li>
+    <li id="subtitle"><h3>Software Architecture & Development & Consulting</h3></li>
+    </ul>
+
+</div><div class="clear"></div>
+<!--=======================================================================================-->  
+
+
+ 
+
+<!--===TITLE==============================================================================-->   
+<div id="title" class="grid_10 push_1 alpha omega section">
+
+    <div class="grid_10 alpha omega section_title">
+        <h2>Personal Details</h2>       
+    </div><div class="clear"></div>
+    
+    <div id="title_sx" class="grid_4 alpha">
+        <div id="photo"><img src="photo/LiadIcon.jpg" alt="myphoto"/></div>
+    </div>
+    
+    <div id="title_center" class="grid_2 alpha">
+    <ul>
+    <li><h4>Birth</h4></li>
+    <li><h4>Address</h4></li>
+    <li><h4>Phone</h4></li>
+    <li><h4>Mail</h4></li>
+    <li><h4>vCard</h4></li>
+    </ul>
+    </div>
+    
+    <div id="title_dx" class="grid_4">
+    <ul>
+    <li><p class="p_big">29 August 1974</p></li>
+    <li><p class="p_big">Loah-Ahari 12 St., Oranit, Israel</p></li>
+    <li><p class="p_big">Mobile. +972-54-7202248</p></li>
+    <li><p class="p_big" id="idDisplayMailTo"></p></li>					
+    <li><a href="../vCard/index.html" target="_blank"><img src="img/social/VCardIcon.gif" title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a></li>		
+    </ul> 
+    
+    </div><div class="clear"></div>
+    
+    <div class="grid_10 alpha omega section_title">
+    <div id="social_button"><h6 class="nav_down" id="nav_down"><a href="#" style="color: #fff;">Contact me</a></h6></div>
+    <div id="social_button_recommendation"><h6><a href="#recommendation" style="color: #fff;">My Profile</a></h6></div>
+   
+    </div><div class="clear"></div>
+
+</div><div class="clear"></div>
+<!--=======================================================================================-->
+
+  
+
+<!--===WORK==============================================================================-->    
+<div class="grid_10 push_1 alpha omega section">
+
+    <div class="grid_10 alpha omega section_title">
+        <h2>My Feedbacks</h2>
+    </div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    <li class="section_content"><p>!!!Any of the recommender/evaluator contact details can be found in XPlace or Linkedin supplied links, or contact me with that request.</p></li>
+    </ul>
+</div><div class="clear"></div>
+<!-- Start Eval- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<div class="grid_10 alpha omega section_list">
+<ul>
+<li>
+<h4>
+XPlace freelance network</h4>
+</li>
+<li><a href="https://www.xplace.com/u/Kasha?lang=en#evals" target="_blank">
+<img src="img/social/logo_main_xplace.gif" title="XPlace freelance projects, feedbacks"
+alt="XPlace freelance projects, feedbacks" style="border: 0px;" /></a><a href="https://www.xplace.com/u/Kasha?lang=en#evals"
+target="_blank"><h5>
+Freelance projects, feedbacks</h5>
+</a></li>
+<li>
+<h4>
+<a href="../vCard/index.html" target="_blank">
+<img src="img/social/VCardIcon.gif" title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"
+alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" /></a><strong style="font-size: 18px;">
+View my virtual card for current projects, examples and reviews</strong></h4>
+</li>
+<li class="section_content"><strong>June 16, 2011</strong><h4>
+Evaluation from Shahar Bar-Itzhak, Aleph Zero Records:</h4>
+<p>
+“Working with Liad was a pleasure. Our expectations were met and topped. We have
+received the product we wanted and more then that, and during the working process
+Liad has made suggestions and had insights that improved on our original ideas.
+Liad was always available, helping, understanding and flexible. It was also very
+important for us that Liad delivered what we asked for and never tried to impose
+his views or ways of working because these were more convenient for him, something
+we have encountered before quite a lot. We will definitely engage Liad for any future
+work that we will need in his field of expertise and we heartily recommend working
+with him.”
+</p>
+<p>
+<strong>shahar</strong><strong>@aleph</strong><strong>-zero</strong><strong>.info</strong></p>
+<br />
+<h4>
+Project title:</h4>
+<h5>
+Musician Facebook Fan Page with gallery of free DJ sets/tracks downloads
+</h5>
+<br />
+<h4>
+Project Description:</h4>
+<p>
+Musician Facebook Fan Page with gallery of free DJ sets/tracks downloads + Admin Gallery
+Content Manager + Tracking End User Page Clicks and Behavior
+</p>
+<div class="date">
+<span>6/16/2011</span></div>
+</li>
+</ul>
+</div>
+<div class="clear">
+</div>
+<!-- End Eval - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+
+<!-- Start Eval- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<div class="grid_10 alpha omega section_list">
+<ul>
+<li>
+<h4>
+XPlace freelance network</h4>
+</li>
+<li><a href="https://www.xplace.com/u/Kasha?lang=en#evals" target="_blank">
+<img src="img/social/logo_main_xplace.gif" title="XPlace freelance projects, feedbacks"
+alt="XPlace freelance projects, feedbacks" style="border: 0px;" /></a><a href="https://www.xplace.com/u/Kasha?lang=en#evals"
+target="_blank"><h5>
+Freelance projects, feedbacks</h5>
+</a></li>
+<li>
+<h4>
+<a href="../vCard/index.html" target="_blank">
+<img src="img/social/VCardIcon.gif" title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"
+alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" /></a><strong style="font-size: 18px;">
+View my virtual card for current projects, examples and reviews</strong></h4>
+</li>
+<li class="section_content"><strong>May 11, 2011</strong><h4>
+Evaluation from Yaron, Lavan Group:</h4>
+<p>
+“.ליעד עשה עבודה מקצועית וטובה ועמד בלוחות הזמנים
+<br />
+Liad did a good and professional work and completed project on time.”
+</p>
+<p>
+<strong>yaron</strong><strong>@lavan</strong><strong>-group</strong><strong>.com</strong></p>
+<br />
+<h4>
+Project title:</h4>
+<h5>
+PHP+MySQL PHP WebAPP tool for Image comparison and Camera settings display
+</h5>
+<br />
+<h4>
+Project Description:</h4>
+<p>
+3 stages webapp and tool for BH as sub conductor. Tool description:<br />
+1.Image comparison tool (PHP, ImageMagic , Javascript, HTML). Parallel Loading of
+four quality images, 4MB each, for quality comparison.
+<br />
+2.Image viewer and image sections mouse move + Camera Settings Filters UI.
+<br />
+3.Camera Settings Visual and Text View.
+</p>
+<div class="date">
+<span>5/11/2011</span></div>
+</li>
+</ul>
+</div>
+<div class="clear">
+</div>
+<!-- End Eval - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+<!-- Start Eval- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    
+    <li><h4>XPlace freelance network</h4></li>
+    
+    <li>
+    <a href="https://www.xplace.com/u/Kasha?lang=en#evals" target="_blank"><img src="img/social/logo_main_xplace.gif" title="XPlace freelance projects, feedbacks" alt="XPlace freelance projects, feedbacks" style="border:0px;"/></a><a href="https://www.xplace.com/u/Kasha?lang=en#evals" target="_blank"><h5>Freelance projects, feedbacks</h5></a>
+    </li>
+    
+    <li><h4><a href="../vCard/index.html" target="_blank"><img src="img/social/VCardIcon.gif"  title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a><strong style="font-size:18px;"> View my virtual card for current projects, examples and reviews</strong></h4></li>
+   
+    <li class="section_content">
+       <strong>March 16, 2011</strong><h4>Evaluation from Samuel Der-Kazaryan:</h4> 
+    <p>
+“I am very pleased with the work Liad did for us during this project. Despite the fact that our requirements were not as well defined, he was able to step in and help us formulate them better, as well as to come up with recommendations on how to move forward with the project. His technical skills and expertise are second to none, and with pedantic attention to detail, constitute the best set of skills one can have in this field. Highly recommend to anyone!.” 
+</p> 
+<p><strong>sam</strong><strong>d</strong><strong>@arara</strong><strong>t.net</strong></p>
+<br />
+<h4>Project title:</h4> 
+<h5>
+A consumer oriented Add on/Extension/Plugin in a digital marketing space
+</h5>
+<br />
+<h4>Project Description:</h4>
+<p>
+A consumer oriented Add on/Extension/Plugin in a digital marketing space and consists of a servlet application that exposes an RPC API, and a front end user script, that communicates with the backend using JSON objects. 
+This component is a cross browser and platform compatible with IE7/8, Firefox, and Chrome on Windows XP/7, Mac and Linux.
+</p>
+    <div class="date"><span>3/16/2011</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- End Eval - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  --> 
+
+<!-- Start Eval - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    
+    <li><h4>PeoplePerHour freelance network</h4></li>
+    
+    <li>
+    <a href="https://www.peopleperhour.com/import_feedback_details.php?efid=6847" target="_blank"><img src="img/social/peopleperhour.gif" title="PeoplePerHour.com freelance projects, feedbacks" alt="PeoplePerHour.com freelance projects, feedbacks" style="border:0px;"/></a><a href="https://www.peopleperhour.com/import_feedback_details.php?efid=6847" target="_blank"><h5>Freelance projects, feedbacks</h5></a>
+    </li>
+    
+    <li><h4><a href="../vCard/index.html" target="_blank"><img src="img/social/VCardIcon.gif"  title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a><strong style="font-size:18px;"> View my virtual card for current projects, examples and reviews</strong></h4></li>
+   
+    <li class="section_content">
+       <strong>Sep 21, 2010</strong><h4>Evaluation from Online365:</h4> 
+    <p>“Liad has done a superb job for us. 
+scrutinizing over the small details that make the difference at the end. skilled, creative, responsible. highly recommended
+</p>
+<p>
+Omry Man<br />
+Zebra-Media <br />
+Business Development Director”
+</p>
+<p><strong>omry</strong><strong>@ze</strong><strong>bra-m.com</strong></p>
+<br />
+<h4>Project title:</h4> 
+<h5>
+Firefox Toolbar Add on and Plugin
+</h5>
+<br />
+<h4>Project Description:</h4>
+<p>
+Creating a smart firefox toolbar that is able to interact with a local media player. Firefox plug in and add-on (NPAPI C++ cross browser and OS plugin+XPI add-om) Toolbar extension and plug in + service for controlling “new player” (audio and video) from browser.
+</p>
+
+    <div class="date"><span>9/21/2010</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- - End Eval - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  --> 
+
+<!-- Start Eval- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    
+    <li><h4>XPlace freelance network</h4></li>
+    
+    <li>
+    <a href="https://www.xplace.com/u/Kasha?lang=en#evals" target="_blank"><img src="img/social/logo_main_xplace.gif" title="XPlace freelance projects, feedbacks" alt="XPlace freelance projects, feedbacks" style="border:0px;"/></a><a href="https://www.xplace.com/u/Kasha?lang=en#evals" target="_blank"><h5>Freelance projects, feedbacks</h5></a>
+    </li>
+    
+    <li><h4><a href="../vCard/index.html" target="_blank"><img src="img/social/VCardIcon.gif"  title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a><strong style="font-size:18px;"> View my virtual card for current projects, examples and reviews</strong></h4></li>
+   
+    <li class="section_content">
+       <strong>Sept 22, 2010</strong><h4>Evaluation from iSkins Store Australia:</h4> 
+    <p>
+“Liad is definitely one of the best freelancers on this site. My project was designed brilliantly and the end product was even better than I expected. 
+Not only was he friendly and polite, but extremely professional and reliable too, consistently sending me updates on his progress. Even when some unexpected bugs appeared, he was quick to come up with creative solutions, and still deliver right on time! 
+I have to personally thank Liad for his great work, and I look forward to working with him again soon. 
+I would also like to recommend him to anyone who is looking for a true expert to produce the best quality for their project.” 
+</p>
+<p><strong>just</strong><strong>in</strong><strong>@justin</strong><strong>coutts.com</strong></p>
+<br />
+<h4>Project title:</h4> 
+<h5>
+Mozilla Thunderbird add-on needed - DYMO Label print
+</h5>
+<br />
+<h4>Project Description:</h4>
+<p>
+Freelance project for customer from Australia, http://www.iskins.com.au Add-on made for Thunderbird >= 3.1.1 that will allow instant printing of address labels to a DYMO LabelWriter 450 (http://global.dymo.com/enAU/Products/LabelWriter_450.html). Add on with 3 buttons: "Print Address", "Edit Address", located next to the 'reply' button. Print Address - Takes the address details from the selected email, arranges them properly, and prints the label. Edit Address - Takes the address details from the selected email, arranges them properly, and open it in the DYMO Label™ Version 8.2.2 Software "Print All" button, for multiple selections.
+</p>
+    <div class="date"><span>9/22/2010</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- End Eval - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    
+    <li><h4>XPlace freelance network</h4></li>
+    
+    <li>
+    <a href="https://www.xplace.com/u/Kasha?lang=en#evals" target="_blank"><img src="img/social/logo_main_xplace.gif" title="XPlace freelance projects, feedbacks" alt="XPlace freelance projects, feedbacks" style="border:0px;"/></a><a href="https://www.xplace.com/u/Kasha?lang=en#evals" target="_blank"><h5>Freelance projects, feedbacks</h5></a>
+    </li>
+    
+    <li><h4><a href="../vCard/index.html" target="_blank"><img src="img/social/VCardIcon.gif"  title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a><strong style="font-size:18px;"> View my virtual card for current projects, examples and reviews</strong></h4></li>
+   
+    <li class="section_content">
+       <strong>Sept 27, 2010</strong><h4>Evaluation from IniTech.co.il:</h4> 
+    <p>
+“אני רוצה להמליץ בחום על עבודתו של ליעד, ליעד גילה דבקות בכל התחייבויותיו,עמד יפה בלו"ז , הפגין ידע מקצועי ומומחיות בתחום פיתוח וובי.מתחילת העבודה ועד היום(הפרויקט בשלב של תיקון באגים) ליעד גילה אחריות מקצועית,עמד בדייקנות בכל התחייבויותיו לפי החוזה והמפרט עליו הסכמנו.ליעד השתלב מאוד יפה בעבודת צוות ויצר ממשקי עבודה טובים עם המתכנת השני בפרויקט.מי שרוצה המלצה אישית מוזמן לפנות אלי. 
+תודה 
+ישי”
+</p>
+<p>
+<strong>ish</strong><strong>ay@ini</strong><strong>tech</strong><strong>.co.il</strong>
+</p>
+<br />
+<h4>Project title:</h4> 
+<h5>
+Tako
+</h5>
+<br />
+<h4>Project Description:</h4>
+<p>
+Facebook Ajax Web Application (Protected with NDA)
+</p>
+
+    <div class="date"><span>9/27/2010</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  --> 
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    
+    <li><h4>Linkedin colleagues network</h4></li>
+    
+    <li>
+    <a href="http://www.linkedin.com/profile/view?id=16123298&authType=name&authToken=8Hg8&pvs=pp#recommendations" target="_blank"><img src="img/social/linkedinBodyCanvas73X24.png" title="Linkedin colleagues recommendations" alt="Linkedin colleagues recommendations" style="border:0px;"/></a>
+    <a href="http://www.linkedin.com/profile/view?id=16123298&authType=name&authToken=8Hg8&pvs=pp#recommendations" target="_blank"><h5>Linkedin colleagues recommendations</h5></a>
+    </li>
+    
+    <li><h4><a href="../vCard/index.html" target="_blank"><img src="img/social/VCardIcon.gif"  title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a><strong style="font-size:18px;"> View my virtual card for current projects, examples and reviews</strong></h4></li>
+   
+    <li class="section_content">
+       <strong>July 23, 2009</strong><h4>Tal Ben-Simon Recommendation For Liad:</h4> 
+    <p>
+“Liad is a one of a kind. 
+He is always in the search of how things can be done right, or better and never compromises on the quality of his work. 
+A professional who brings his vast knowledge and experience to the table - but more important, Liad is always fully dedicated and highly motivated and truly passionate to his work. 
+Liad took an important role on a successful launch of a complex web-application under challenging conditions. I appreciate Liad for being part of our team, and I'd like to thank him for his good work.”
+</p>
+<br />
+<h4>Tal Ben-Simon, Founder & CEO, bp InTech
+managed Liad at bp InTech </h4> 
+<h5>
+Liad was CTO and VP R&D manager in bp InTech
+</h5>
+
+    <div class="date"><span>7/23/2009</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  --> 
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    
+    <li><h4>Linkedin colleagues network</h4></li>
+    
+    <li>
+    <a href="http://www.linkedin.com/profile/view?id=16123298&authType=name&authToken=8Hg8&pvs=pp#recommendations" target="_blank"><img src="img/social/linkedinBodyCanvas73X24.png" title="Linkedin colleagues recommendations" alt="Linkedin colleagues recommendations" style="border:0px;"/></a>
+    <a href="http://www.linkedin.com/profile/view?id=16123298&authType=name&authToken=8Hg8&pvs=pp#recommendations" target="_blank"><h5>Linkedin colleagues recommendations</h5></a>
+    </li>
+    
+    <li><h4><a href="../vCard/index.html" target="_blank"><img src="img/social/VCardIcon.gif"  title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a><strong style="font-size:18px;"> View my virtual card for current projects, examples and reviews</strong></h4></li>
+   
+    <li class="section_content">
+       <strong>July 20, 2009</strong><h4>Hanan Baranes Recommendation For Liad:</h4> 
+    <p>
+“Architecture,Methodology, Standarts, Design, Code review, Infrastructures, are just part of the rules Liad set as a CTO in BPIntech. Even in a small innovative startup compay, When time and money are always in lack, Liad was loyal to his principles which proved themselves at the end in a beautiful web application called playSPEX.” 
+</p>
+<br />
+<h4>Hanan Baranes, Senior Java Software engineer, BP interactive technologies
+worked directly with Liad at bp InTech</h4> 
+<h5>
+Liad was CTO and VP R&D manager in bp InTech
+</h5>
+
+    <div class="date"><span>7/20/2009</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  --> 
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->    
+<div class="grid_10 alpha omega section_list">
+    <ul>
+    
+    <li><h4>Linkedin colleagues network</h4></li>
+    
+    <li>
+    <a href="http://www.linkedin.com/profile/view?id=16123298&authType=name&authToken=8Hg8&pvs=pp#recommendations" target="_blank"><img src="img/social/linkedinBodyCanvas73X24.png" title="Linkedin colleagues recommendations" alt="Linkedin colleagues recommendations" style="border:0px;"/></a>
+    <a href="http://www.linkedin.com/profile/view?id=16123298&authType=name&authToken=8Hg8&pvs=pp#recommendations" target="_blank"><h5>Linkedin colleagues recommendations</h5></a>
+    </li>
+    
+    <li><h4><a href="../vCard/index.html" target="_blank"><img src="img/social/VCardIcon.gif"  title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a><strong style="font-size:18px;"> View my virtual card for current projects, examples and reviews</strong></h4></li>
+   
+    <li class="section_content">
+       <strong>May 23, 2009</strong><h4>Amir Kost Recommendation For Liad:</h4> 
+    <p>
+“I reported directly to Liad when he was my CTO at BP InTech. I found Liad a great source of knowledge of web technologies, and a skilled manager - has the ability to motivate his workers, knows how to set priorites between tasks, has a good system wide vision but also the ability to "dive" into the smallest details when needed. I think every company could use someone like Liad as a CTO.”
+</p>
+<br />
+<h4>Amir Kost, Java Server Technical Leader, BP Intech
+reported to Liad at bp InTech</h4> 
+<h5>
+Liad was CTO and VP R&D manager in bp InTech
+</h5>
+
+    <div class="date"><span>5/23/2009</span></div></li>
+     </ul>
+</div><div class="clear"></div>
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  --> 
+   
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  -->
+
+</div><div class="clear"></div>
+<!--=======================================================================================-->
+
+
+<!--===EDUCATION==============================================================================-->    
+<!--=======================================================================================--> 
+
+<!--===Recommendations References Start==============================================================================-->    
+<div id="recommendation" class="grid_10 push_1 alpha omega section">
+
+    <div class="grid_10 alpha omega section_title">
+        <h2>My Profile</h2>
+    </div>
+    
+    <div class="grid_10 alpha omega section_list">
+      <ul>
+        <li><img class="png_fix" src="vCard/assets/img/social/sdAngle.png" alt="Skill-Deal, Reveal your skill and make a deal, Liad's Profile" title="Skill-Deal, Reveal your skill and make a deal, Liad's Profile"/><a href="../index.html" target="_blank">My Skill-Deal Profile</a></li>
+      </ul>
+    </div>
+
+    <div class="clear"></div>
+</div><div class="clear"></div>
+<!--===Recommendations References End==============================================================================-->    
+<!--===CONTACT FORM==============================================================================-->    
+<div id="contact" class="grid_10 push_1 alpha omega section">
+
+    <div class="grid_10 alpha omega section_title">
+        <h2>Contact Me</h2>
+        
+    </div><div class="clear"></div>
+    
+    <div class="grid_5 alpha contact_sx">
+    
+    <form id="formail" method="post" action="">
+    <ul>
+        <li><h4>Name</h4><div class="border"><input type="text" id="nome" name="nome"  value="" /></div></li>
+        <li><h4>Email</h4><div class="border"><input type="text" id="email" name="email"  value="" /></div></li>
+        <li><h4>Subject</h4><div class="border"><input type="text" id="oggetto" name="ogggetto"  value="" /></div></li>
+        <li><h4></h4><input type="submit" id="invia" name="invia" value="" /></li>
+    </ul>
+    </form>
+    </div>
+    <div class="grid_5 omega contact_dx">
+    <ul>
+    <li><div class="border"><textarea id="messaggio" name="messaggio" rows="4" cols="20"></textarea></div></li>
+    </ul>
+    </div>
+    <div class="clear"></div>   
+    
+    <div class="grid_10 alpha omega">
+    <div class="border"><div id="risposta"></div></div>
+    </div><div class="clear"></div>
+
+</div><div class="clear"></div>
+<!--=======================================================================================--> 
+<!--===FOOTER==============================================================================-->
+<div id="footer" class="grid_10 push_1 alpha omega">
+</div><div class="clear"></div>
+<!--=======================================================================================-->
+
+<div id="social">
+<ul>
+<li id="social_top"></li>
+<li><a href="http://www.facebook.com/profile.php?id=588609444" target="_blank"><img src="img/social/facebook.png" title="facebook" alt="facebook"/></a></li>
+<li><a href="http://themeforest.net/user/Liad" target="_blank"><img src="img/social/twitter.png" title="themeforest" alt="themeforest"/></a></li>
+<li><a href="http://www.linkedin.com/in/kashanovsky" target="_blank"><img src="img/social/linkedin.png" title="linkedin" alt="linkedin"/></a></li>
+
+<li><a id="idMailTo" href="#" target="_blank"><img src="img/social/email.png" alt="email"/></a></li>
+
+<li><a href="../vCard/index.html" target="_blank"><img style="margin-top:-2px;margin-left:9px;width:30px;height:29px;" src="img/social/vtCardIconS.png"  title="Skill-Deal, Reveal your skill and make a deal, Liad's vCard" alt="Skill-Deal, Reveal your skill and make a deal, Liad's vCard"/></a></li>
+<!--
+<li><a href="#"><img src="img/social/flickr.png" /></a></li>
+<li><a href="#"><img src="img/social/friendfeed.png" /></a></li>
+<li><a href="#"><img src="img/social/google.png" /></a></li>
+<li><a href="#"><img src="img/social/msn.png" /></a></li>
+<li><a href="#"><img src="img/social/myspace.png" /></a></li>
+<li><a href="#"><img src="img/social/skype.png" /></a></li>
+<li><a href="#"><img src="img/social/yahoo.png" /></a></li>
+<li><a href="#"><img src="img/social/youtube.png" /></a></li>
+-->
+<li><a href="LiadCV.doc"><img src="img/social/download.png" alt="download"/></a></li>
+<li id="social_bottom"></li>
+</ul>
+</div>
+
+</div><div class="clear"></div><!-- close content-->
+</div><!-- close container-->
+
+<script type="text/javascript">
+            $(function() {
+                var $elem = $('#content');
+                
+                $('#nav_down').click(
+                    function (e) {
+                        $('html, body').animate({scrollTop: $elem.height()}, 800);
+                    }
+                );
+            });
+         
+</script>
+</body>
+</html>
